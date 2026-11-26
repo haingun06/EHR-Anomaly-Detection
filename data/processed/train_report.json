@@ -1,0 +1,58 @@
+{
+  "ambulatory": {
+    "n_train": 15279,
+    "n_calibration": 15326,
+    "n_positive_train": 444,
+    "contamination": 0.01,
+    "threshold": 0.5999351169436749,
+    "train_f1": 0.30704225352112674
+  },
+  "emergency": {
+    "n_train": 1845,
+    "n_calibration": 1851,
+    "n_positive_train": 51,
+    "contamination": 0.01,
+    "threshold": 0.6480548223159102,
+    "train_f1": 0.3333333333333333
+  },
+  "inpatient": {
+    "n_train": 1231,
+    "n_calibration": 1234,
+    "n_positive_train": 31,
+    "contamination": 0.02,
+    "threshold": 0.6021935173233565,
+    "train_f1": 0.22580645161290322
+  },
+  "outpatient": {
+    "n_train": 8716,
+    "n_calibration": 8748,
+    "n_positive_train": 243,
+    "contamination": 0.02,
+    "threshold": 0.6173930375347022,
+    "train_f1": 0.19913419913419914
+  },
+  "urgentcare": {
+    "n_train": 2171,
+    "n_calibration": 2178,
+    "n_positive_train": 60,
+    "contamination": 0.02,
+    "threshold": 0.6030836013125775,
+    "train_f1": 0.18018018018018017
+  },
+  "wellness": {
+    "n_train": 19332,
+    "n_calibration": 19396,
+    "n_positive_train": 550,
+    "contamination": 0.07,
+    "threshold": 0.5555646590045206,
+    "train_f1": 0.1543756145526057
+  },
+  "__fallback__": {
+    "n_train": 48574,
+    "n_calibration": 48733,
+    "n_positive_train": 1379,
+    "contamination": 0.01,
+    "threshold": 0.6468467516923846,
+    "train_f1": 0.3166441136671177
+  }
+}

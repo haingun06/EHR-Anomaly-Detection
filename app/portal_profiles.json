@@ -1,0 +1,80 @@
+{
+  "_ghi_chu": "CÁC HỒ SƠ NÀY LÀ GIẢ ĐỊNH ĐỂ MINH HỌA CƠ CHẾ.",
+  "profiles": {
+    "emch_gia_dinh": {
+      "ten": "Cổng liên thông e-MCH (giả định)",
+      "dinh_dang_ngay": "%d/%m/%Y",
+      "dinh_dang_gio": "%H:%M",
+      "loai_luot_kham": null,
+      "truong_bat_buoc": [
+        "PATIENT",
+        "BIRTHDATE",
+        "ENCOUNTERCLASS",
+        "START",
+        "TOTAL_CLAIM_COST",
+        "CODE",
+        "DESCRIPTION"
+      ],
+      "truong_ngay": [
+        "BIRTHDATE",
+        "START",
+        "STOP"
+      ],
+      "truong_so": [
+        "TOTAL_CLAIM_COST",
+        "BASE_ENCOUNTER_COST",
+        "PAYER_COVERAGE"
+      ],
+      "anh_xa": {
+        "Id": "MA_LUOT_KHAM",
+        "PATIENT": "MA_BENH_NHAN",
+        "BIRTHDATE": "NGAY_SINH",
+        "ENCOUNTERCLASS": "LOAI_KHAM",
+        "START": "THOI_GIAN_BAT_DAU",
+        "STOP": "THOI_GIAN_KET_THUC",
+        "CODE": "MA_DICH_VU",
+        "DESCRIPTION": "TEN_DICH_VU",
+        "TOTAL_CLAIM_COST": "TONG_CHI_PHI",
+        "BASE_ENCOUNTER_COST": "CHI_PHI_CO_BAN",
+        "PAYER_COVERAGE": "PHAN_BHYT_CHI_TRA"
+      }
+    },
+    "kham_suc_khoe_gia_dinh": {
+      "ten": "Cổng dữ liệu khám sức khỏe (giả định)",
+      "dinh_dang_ngay": "%d/%m/%Y",
+      "dinh_dang_gio": "%H:%M",
+      "loai_luot_kham": [
+        "wellness"
+      ],
+      "truong_bat_buoc": [
+        "PATIENT",
+        "LAST",
+        "FIRST",
+        "GENDER",
+        "BIRTHDATE",
+        "START",
+        "STOP",
+        "TOTAL_CLAIM_COST"
+      ],
+      "truong_ngay": [
+        "BIRTHDATE",
+        "START",
+        "STOP"
+      ],
+      "truong_so": [
+        "TOTAL_CLAIM_COST"
+      ],
+      "anh_xa": {
+        "Id": "MA_LUOT_KHAM",
+        "PATIENT": "MA_BENH_NHAN",
+        "LAST": "HO",
+        "FIRST": "TEN",
+        "GENDER": "GIOI_TINH",
+        "BIRTHDATE": "NGAY_SINH",
+        "START": "THOI_GIAN_BAT_DAU",
+        "STOP": "THOI_GIAN_KET_THUC",
+        "TOTAL_CLAIM_COST": "TONG_CHI_PHI"
+      }
+    }
+  }
+}

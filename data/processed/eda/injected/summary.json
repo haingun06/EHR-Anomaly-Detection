@@ -1,0 +1,7 @@
+{
+  "rows": 61898,
+  "patients": 1163,
+  "duplicate_rows_same_key": 439,
+  "stop_before_start": 439,
+  "age_negative_or_over_120": 99
+}

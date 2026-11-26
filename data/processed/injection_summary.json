@@ -1,0 +1,25 @@
+{
+  "error_rate_target": 0.05,
+  "rows_clean": 61459,
+  "rows_injected_file": 61898,
+  "labeled_rows": 3072,
+  "labeled_share_of_file_pct": 4.96,
+  "by_error_type": {
+    "missing": 440,
+    "frequency": 440,
+    "duplicate": 439,
+    "date_logic": 439,
+    "age": 439,
+    "cost": 438,
+    "duration": 437
+  },
+  "by_group": {
+    "wellness": 1202,
+    "ambulatory": 1006,
+    "outpatient": 542,
+    "urgentcare": 128,
+    "emergency": 108,
+    "inpatient": 86
+  },
+  "shortfall": []
+}

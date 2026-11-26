@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-11-26T05:16:04+00:00",
+  "source": "Synthea (dữ liệu tổng hợp), bộ CSV mẫu",
+  "files": {
+    "patients.csv": {
+      "sha256": "4ad1125992bbf3257dc11bf6afc14409a76657452bddc4ff5a708bfa674d8fd9",
+      "bytes": 338744
+    },
+    "encounters.csv": {
+      "sha256": "f6405b8d0a94dea50b822fc48bb07519e754cd62f474ef97fc4a82221abe1cf0",
+      "bytes": 19123611
+    },
+    "conditions.csv": {
+      "sha256": "6139b1b5e9196fae972ccd10e1ef82c38aa4341117e2bb32559bcf6c90d9015d",
+      "bytes": 5076491
+    }
+  },
+  "n_patients": 1163,
+  "n_encounters": 61459,
+  "encounterclass_counts": {
+    "wellness": 24038,
+    "ambulatory": 20124,
+    "outpatient": 10837,
+    "urgentcare": 2564,
+    "emergency": 2168,
+    "inpatient": 1728
+  },
+  "unmatched_birthdate": 0,
+  "unparseable_dates": 0,
+  "conditions_rows": 38094,
+  "conditions_linked_to_encounter": 38094,
+  "conditions_unlinked": 0,
+  "emr_scope": {
+    "included": {
+      "hành chính": "patients.csv (FIRST, LAST, GENDER, BIRTHDATE, ADDRESS, CITY, STATE, ZIP), Id bệnh nhân",
+      "bảo hiểm": "encounters.csv (PAYER, PAYER_COVERAGE): chỉ có mã đơn vị thanh toán, không có tên hay số thẻ",
+      "lý do khám": "encounters.csv (REASONDESCRIPTION), chỉ có ở khoảng 26% lượt khám",
+      "chẩn đoán và tiền sử bệnh": "conditions.csv (gắn với lượt khám qua ENCOUNTER)",
+      "thủ thuật": "encounters.csv (CODE, DESCRIPTION)",
+      "bác sĩ phụ trách": "encounters.csv (PROVIDER): chỉ có mã",
+      "diễn biến": "lịch sử các lượt khám của cùng bệnh nhân"
+    },
+    "not_in_source": [
+      "thông tin liên hệ (số điện thoại, email)",
+      "tiền sử gia đình",
+      "tiền sử dị ứng thuốc và thực phẩm",
+      "dấu hiệu sinh tồn và kết quả khám lâm sàng",
+      "bệnh sử hiện tại dạng tường thuật",
+      "đơn thuốc, liều lượng, phác đồ điều trị",
+      "lời dặn xuất viện và tái khám",
+      "chữ ký số của bác sĩ"
+    ]
+  },
+  "note": "Không lọc theo khoa. Không có cột khoa trong dữ liệu."
+}
